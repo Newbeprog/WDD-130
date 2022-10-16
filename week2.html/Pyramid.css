@@ -1,0 +1,14 @@
+.Top {
+  background-color: red;
+  display: block;
+  margin: 300px;
+  padding: ;
+}
+.Middle {
+  background-color: blue;
+  display: block;
+}
+.Bottom {
+  background-color: greenyellow;
+  display: block;
+}

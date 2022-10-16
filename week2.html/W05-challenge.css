@@ -1,0 +1,30 @@
+#circles-img {
+  width: 100%;
+  margin: 0 auto;
+}
+#pictures {
+  background-color: gray;
+}
+.color {
+  align-items: center;
+}
+
+.desk-img {
+  border-radius: 50%;
+  width: 25%;
+  outline-style: auto;
+  outline-color: #36454f;
+}
+.graphic-img {
+  border-radius: 50%;
+  width: 25%;
+  outline-style: auto;
+  outline-color: #36454f;
+}
+.person-img {
+  border-radius: 50%;
+  width: 25%;
+  outline-style: auto;
+  outline-color: #36454f;
+  outline-width: 20px;
+}
