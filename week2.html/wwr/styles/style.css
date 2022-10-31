@@ -18,6 +18,10 @@ nav a {
   font-size: 2em;
   margin-top: 10px;
 }
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
 h4 {
   color: #f7f8f8;
 }
@@ -37,9 +41,6 @@ h4 {
 }
 main section {
   text-align: center;
-}
-#background {
-  height: 725px;
 }
 h2 {
   margin: 0;
@@ -97,14 +98,16 @@ main section img {
   background-color: #7c7c74;
   grid-column: 1/11;
   grid-row: 4/9;
+  height: 725px;
 }
 .msg {
   background-color: #748ccc;
   line-height: 1.5em;
-  padding: 35px;
+  padding: 25px;
   grid-column: 6/10;
   grid-row: 6/7;
   box-shadow: 5px 5px 10px #6f7364;
+  margin-top: 150px;
 }
 .msg h2 {
   color: #f7f8f8;
@@ -174,10 +177,13 @@ footer .social img {
   grid-row: 2/3;
 }
 .mountains {
-  width: 100%;
+  margin: 20px 0;
+  width: 50%;
   grid-column: 2/7;
   grid-row: 5/8;
   box-shadow: 5px 5px 10px #6f7364;
+  margin-left: 100px;
+  margin-top: 125px;
 }
 @media screen and (max-width: 900px) {
   #hero,
