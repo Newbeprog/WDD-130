@@ -185,7 +185,18 @@ footer .social img {
   margin-left: 100px;
   margin-top: 125px;
 }
-
+.Salmon-river {
+  float: left;
+  padding: 15px;
+}
+.gray-canyon {
+  float: right;
+  padding: 15px;
+}
+.grand-canyon {
+  float: left;
+  padding: 15px;
+}
 @media screen and (max-width: 900px) {
   #hero,
   .home-grid {
