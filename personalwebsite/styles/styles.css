@@ -24,7 +24,6 @@ nav a:hover {
   border-radius: 40%;
 }
 #home-title {
-  color: ;
   font-family: "Indie Flower", cursive;
   font-size: 2em;
   margin: 60px;
@@ -85,4 +84,34 @@ header {
 }
 .about-msg {
   width: 40em;
+}
+.flavors {
+  margin: 0 auto;
+}
+#background {
+  background-color: #55d6be;
+  grid-column: 1/11;
+  grid-row: 4/9;
+  height: 725px;
+}
+.backdrop {
+  background-color: white;
+}
+.choice {
+  margin: 20px 0;
+  width: 30%;
+  grid-column: 2/7;
+  grid-row: 5/8;
+  box-shadow: 5px 5px 10px #dddddd;
+  margin-left: 100px;
+  margin-top: 90px;
+}
+.msg {
+  background-color: #fc6471;
+  line-height: 1.5em;
+  padding: 25px;
+  grid-column: 6/10;
+  grid-row: 6/7;
+  box-shadow: 5px 5px 10px #6f7364;
+  margin-top: 150px;
 }
