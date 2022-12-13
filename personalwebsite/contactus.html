@@ -13,7 +13,7 @@
         <a id="logo_link" href="index.html">
           <img
             class="logo"
-            src="./Images/Icecream Logo.png"
+            src="./Images/IcecreamLogo.png"
             alt="Pete's Icecream shop logo"
           />
         </a>
@@ -27,7 +27,9 @@
               </button>
               <div class="dropdown-content">
                 <a href="./Location_and_Flavors.html">Location & Flavors</a>
-                <a href="./Price_&_Container_Options.html">Price & Containers</a>
+                <a href="./Price_&_Container_Options.html"
+                  >Price & Containers</a
+                >
                 <a href="./contactus.html"> Contact Us</a>
                 <a href="./site-plan.html">Site Plan</a>
               </div>
@@ -35,92 +37,89 @@
           </div>
         </nav>
       </header>
-        </div>
-       
-      </div>
       <main>
         <div id="feedback">
-        <form action="/my-handling-form-page" method="post">
+          <form action="/my-handling-form-page" method="post">
             <ul>
-                <li>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="user_name">
-                </li>
-                <li>
-                    <label for="mail">E-mail:</label>
-                    <input type="email" id="mail" name="user_email"/>
-                </li>
-                <li>
-                    <label for="msg">Message:</label>
-                    <textarea id="msg" name="user_message"></textarea>
-                </li>
-                <li class="button">
-                    <button type="submit">Submit</button>
-                </li>
+              <li>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name" />
+              </li>
+              <li>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" name="user_email" />
+              </li>
+              <li>
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="user_message"></textarea>
+              </li>
+              <li class="button">
+                <button type="submit">Submit</button>
+              </li>
             </ul>
-            <div id="feedback"></div>
-        </form>  
-          </div>
-          <style>
-            form {
-              margin: 0 auto;
-            }
-            ul{
-              list-style: none;
-              padding: 10px
-              margin: 0;
-            }
-            form li + li {
-              margin-top: 1em;
-            }
-            label {
-              /* Uniform size & alignment */
-              display: inline-block;
-              width: 90px;
-              text-align: right;
-            }
-            input, textarea{
-              /* to make sure that all text fields have the same font settings by default, textareas have a monospace font */
-              font:  1em sas-serif;
-              /* Uniform text field size */
-              width: 300px;
-              box-sizing: border-box;
-              /* Additional highlight for focused elements */
-              border-color: #000;
-            }
-            input:focus, textarea:focus {
-              /* Additional highlight for focused elements */
-              border-color: #000;
-            }
-            textarea {
-              /* Align multiline text fields with their labels */
-              vertical-align: top;
-              /* Provide space to type some text */
-              height: 5em;
-            }
-            .button {
-              /* Alighn buttons with the text fields */
-              padding-left: 90px;  /* same size as the label elements */
-            }
-            button {
-              /* This extra margin represent roughly the same spce as the space between the lavels and their text fields */
-              margin-left: 0.5em;
-            }
-            #feedback {
- 
-               background-color: #acfcd9;
-               position: absolute;
-               top: 5px;
-               left: 0;
-               right: 0;
-               padding: .5em;
-               /* make this element invisible until we are ready for it */
-               /* display: none; */
-              }
-              .moveDown {
-                margin-top: 3em;
-              }
-          </style>
+          </form>
+        </div>
+        <style>
+          form {
+            margin: 0 auto;
+          }
+          ul {
+            list-style: none;
+            padding: 10px;
+            margin: 0;
+          }
+          form li + li {
+            margin-top: 1em;
+          }
+          label {
+            /* Uniform size & alignment */
+            display: inline-block;
+            width: 90px;
+            text-align: right;
+          }
+          input,
+          textarea {
+            /* to make sure that all text fields have the same font settings by default, textareas have a monospace font */
+            font: 1em sas-serif;
+            /* Uniform text field size */
+            width: 300px;
+            box-sizing: border-box;
+            /* Additional highlight for focused elements */
+            border-color: #000;
+          }
+          input:focus,
+          textarea:focus {
+            /* Additional highlight for focused elements */
+            border-color: #000;
+          }
+          textarea {
+            /* Align multiline text fields with their labels */
+            vertical-align: top;
+            /* Provide space to type some text */
+            height: 5em;
+          }
+          .button {
+            /* Alighn buttons with the text fields */
+            padding-left: 90px; /* same size as the label elements */
+          }
+          button {
+            /* This extra margin represent roughly the same spce as the space between the lavels and their text fields */
+            margin-left: 0.5em;
+          }
+          #feedback {
+            background-color: #acfcd9;
+            position: absolute;
+            top: 5px;
+            left: 0;
+            right: 0;
+            padding: 0.5em;
+            /* make this element invisible until we are ready for it */
+            /* display: none; */
+          }
+          .moveDown {
+            margin-top: 3em;
+          }
+        </style>
       </main>
       <footer>
         <p>Pete's Icecream shop &copy; 2022 - Kamas Peterson</p>
@@ -138,24 +137,26 @@
           </a>
         </div>
       </footer>
-      
     </div>
     <script>
-            // get the feedback div element so we can do something with it.
-    const feedbackElement = document.getElementById('feedback');
-    // get the form so we can read what was entered in it.
-    const formElement = document.forms[0];
-    // add a 'listener' to wait for a submission of our form. When that happens run the code below.
-    formElement.addEventListener('submit', function(e) {
+      // get the feedback div element so we can do something with it.
+      const feedbackElement = document.getElementById("feedback");
+      // get the form so we can read what was entered in it.
+      const formElement = document.forms[0];
+      // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+      formElement.addEventListener("submit", function (e) {
         // stop the form from doing the default action.
         e.preventDefault();
         // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
-        feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+        feedbackElement.innerHTML =
+          "Hello " +
+          formElement.user_name.value +
+          "! Thank you for your message. We will get back with you as soon as possible!";
         // make the feedback element visible.
         feedbackElement.style.display = "block";
         // add a class to move everything down so our message doesn't cover it.
-        document.body.classList.toggle('moveDown');
-    });
-      </script>
+        document.body.classList.toggle("moveDown");
+      });
+    </script>
   </body>
 </html>
