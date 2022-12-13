@@ -18,11 +18,6 @@ nav a {
   text-decoration: none;
   padding: 35px;
 }
-/* nav a:hover {
-  background-color: #acfcd9;
-  font-size: 1.2em;
-  border-radius: 40%;
-} */
 .navbar {
   overflow: hidden;
   background-color: #acfcd9;
@@ -138,9 +133,17 @@ header {
   margin: 0 auto;
 }
 .icecream {
-  /* margin-left: auto; */
-  /* margin-right: auto; */
   width: 20em;
+}
+.shop {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.shop img {
+  border: 5px solid #fc6471;
+  border-radius: 10%;
 }
 .about-msg {
   width: 40em;
@@ -267,4 +270,28 @@ li {
 
 .info {
   line-height: 30px;
+}
+@media screen and (max-width: 900px) {
+  #hero,
+  .home-grid {
+    display: block;
+    height: auto;
+  }
+  nav,
+  footer {
+    flex-direction: column;
+  }
+  #hero {
+    margin-top: 0;
+  }
+  .home-title {
+    font-size: 25px;
+    color: black;
+  }
+  #background {
+    display: none;
+  }
+  footer {
+    margin-top: 25px;
+  }
 }
